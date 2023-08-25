@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WorkSpace</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container header__container"></div>
+        <div class="container header__container">
         <img src="image/logo.svg" alt="Логотип WorkSpace" class="header__logo">
         <a href="#vacancies" class="header__link">Посмотреть вакансии</a>
+    </div>
     </header>
 
     <main>
@@ -25,13 +27,14 @@
 
         <div class="vacancies" id="vacancies">
             <div class="container vacancies__container">
+                <button class="vacancies__filter-btn">Фильтр</button>
                 <section class="vacancies__filter filter">
                     <h2 class="filter__title">Фильтр</h2>
 
                     <form class="filter__form">
                         <fieldset class="filter__fieldset">
                             <legend class="filter__legend">Город</legend>
-                            <select name="city" id="city" class="filter__select">
+                            <select class="filter__select" name="city" id="city" >
                                 <option>Выбрать город</option>
                                 <option>Минск</option>
                                 <option>Могилев</option>
@@ -129,6 +132,20 @@
                                     <li class="vacancy__field">частичная занятость</li>
                                     <li class="vacancy__field">офис</li>
                                     <li class="vacancy__field">опыт не важен</li>
+                                </ul>   
+                            </article>
+                        </li>
+
+                        <li class="cards__item">
+                            <article class="vacancy" tabindex="0">
+                                <img src="image/Yadro.svg" alt="Логотип компании Yadro" class="vacancy__img">
+                                <p class="vacancy__company">YADRO</p>
+                                <h3 class="vacancy__title">Инженер</h3>
+                                <ul class="vacancy__fields">
+                                    <li class="vacancy__field">от 150 000₽</li>
+                                    <li class="vacancy__field">полная занятость</li>
+                                    <li class="vacancy__field">офис</li>
+                                    <li class="vacancy__field">опыт от 3-х лет</li>
                                 </ul>   
                             </article>
                         </li>
