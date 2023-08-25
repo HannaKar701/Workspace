@@ -23,7 +23,7 @@
 .filter__fieldset{
     display: flex;
     flex-direction: column;
-    align-self: start;
+    align-items: start;
 }
 
 .filter__legend{
