@@ -24,7 +24,7 @@
     position: absolute;
     inset: 0;
     display: block;
-    background: url(/image/uim_check.svg) no-repeat center;
+    background: url(../image/uim_check.svg) no-repeat center;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
 }
